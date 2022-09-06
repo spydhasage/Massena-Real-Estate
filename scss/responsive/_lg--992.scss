@@ -1,0 +1,807 @@
+@include media-breakpoint-up(lg) {
+
+	.searchOpener {
+		font-size: 15px;
+		margin-right: 13px;
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.mainNavDropdown {
+
+		&.dropdown-menu {
+			width: 160px;
+
+			.dropdown-item  {
+				font-size: 14px;
+				padding: 13px;
+			}
+		}
+
+		.dropdown-submenu {
+
+			&:after {
+				right: 18px;
+				top: 15px;
+			}
+		}
+	}
+
+	.pageMainNavigation.navbar-nav {
+
+		li.dropdown {
+
+			> .dropdown-menu:before {
+				top: -37px;
+				height: 37px;
+			}
+
+			> .dropdown-menu {
+				margin-top: 37px;
+			}
+		}
+	}
+
+	.dropdown-submenu {
+
+		&:after {
+			font-size: 10px;
+		}
+	}
+
+	.pageMainNavigation {
+
+		.nav-item {
+
+			&.dropdown {
+
+				&:after {
+					font-size: 10px;
+				}
+			}
+		}
+
+		li.nav-item {
+
+			&:nth-last-child(3) {
+
+				.navDropdownList {
+
+					.dropdown-submenu {
+
+						.dropdown-menu.mainNavDropdown {
+							left: 100% !important;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.menuHolder {
+
+		.navCollapse {
+			padding-top: 37px;
+			padding-bottom: 37px;
+
+			.nav-item {
+				font-size: 15px;
+
+				&.dropdown {
+					margin-right: 13px;
+				}
+			}
+
+			.nav-link {
+				padding: 0 15px;
+			}
+		}
+	}
+
+	.hdBtn {
+		min-width: 155px;
+		font-size: 18px;
+
+		&:before,
+		.btnText {
+			padding: 10px 15px;
+		}
+	}
+
+	.headerII {
+
+		.pageMainNavigation {
+
+			li.nav-item {
+
+				&:nth-last-child(2),
+				&:nth-last-child(1) {
+
+					.navDropdownList {
+
+						.dropdown-submenu {
+
+							.dropdown-menu.mainNavDropdown {
+								left: 100% !important;
+							}
+						}
+					}
+				}
+			}
+
+			li.dropdown {
+
+				> .dropdown-menu {
+					margin-top: 21px;
+				}
+			}
+		}
+
+		.topBarContactList {
+
+			li {
+				margin-right: 60px;
+				font-size: 18px;
+			}
+
+			li + li {
+
+				&:before {
+					height: 40px;
+					left: -30px;
+				}
+			}
+
+			.icn {
+				font-size: 20px;
+				margin-right: 15px;
+			}
+		}
+
+		.socialNetworks {
+
+			.icn {
+				font-size: 16px;
+			}
+		}
+
+		.customSelectWrap {
+			font-size: 14px;
+
+			&:after {
+				font-size: 14px;
+			}
+		}
+	}
+
+	.syOFcvBlock {
+
+		.featureBlock {
+			margin-bottom: 68px;
+
+			.fbTxtBlock {
+				width: 205px
+			}
+		}
+
+		.lfbRow {
+
+			.fbtWrap {
+				padding: 18px 12px 15px 8px;
+			}
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-right: -125px;
+					}
+
+					.fbTxtBlock {
+						right: -65px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: -40px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-right: -65px;
+					}
+
+					.fbTxtBlock {
+						right: -5px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 20px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-right: -80px;
+					}
+
+					.fbTxtBlock {
+						right: -20px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 5px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.rfbRow {
+
+			.fbtWrap {
+				padding: 18px 10px 15px 10px;
+			}
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-left: -125px;
+					}
+
+					.fbTxtBlock {
+						right: auto;
+						left: -65px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: auto;
+								left: -40px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-left: -55px;
+					}
+
+					.fbTxtBlock {
+						left: 5px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 30px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-left: -55px;
+					}
+
+					.fbTxtBlock {
+						left: 5px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 30px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.lfbRow,
+		.rfbRow {
+			padding-top: 20px;
+		}
+
+		.imgHolder {
+			width: 395px;
+			height: 415px;
+			margin-left: auto;
+			margin-right: auto;
+			overflow: hidden;
+			position: absolute;
+			left: 50%;
+			bottom: 79px;
+			transform: translateX(-50%);
+
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+		}
+	}
+
+	.cgVerII {
+
+		.cgSecRow {
+
+			.causeGridCol {
+				margin-bottom: 0 !important;
+			}
+		}
+	}
+
+	.donateNowForm {
+
+		.customInputWrap {
+
+			.input-group-text,
+			.form-control {
+				font-size: 18px;
+			}
+
+			.form-control::-webkit-input-placeholder {
+				font-size: 16px;
+			}
+
+			.form-control:-ms-input-placeholder {
+				font-size: 16px;
+			}
+
+			.form-control::-ms-input-placeholder {
+				font-size: 16px;
+			}
+
+			.form-control::placeholder {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.sendRequestFormWrapper {
+
+		&.srfwVerII {
+
+			.customRadioTabBtnLabel .cuFakeLabel {
+				font-size: 18px;
+			}
+		}
+	}
+
+	.donationBoxHolder {
+
+		.ccLiveCounter {
+
+			li {
+				width: 48%;
+			}
+		}
+	}
+
+	.hmiRow {
+
+		.dslCol {
+			margin-bottom: 0;
+		}
+	}
+
+	.bannerSlider {
+		padding-top: 138px;
+		margin-top: -138px;
+
+		.slick-arrow {
+			font-size: 20px;
+			width: 52px;
+			height: 52px;
+		}
+
+		.slickPrev {
+			left: 30px;
+		}
+
+		.slickNext {
+			right: 30px;
+		}
+
+		.bannerSec.bannerSecIII {
+			min-height: calc(100vh - 135px);
+		}
+	}
+
+	.bannerSecIII {
+
+		.imageWrap {
+
+			.imgHolder {
+				max-width: 470px;
+			}
+		}
+	}
+
+	.htrtsoCovid-19 {
+
+		.imgWrap {
+
+			.imgHolder {
+				width: 350px;
+			}
+
+			.rwImg {
+				right: -15px;
+			}
+		}
+	}
+
+	.ourPromiseBlock {
+
+		.videoWrap {
+			position: absolute;
+			height: 100%;
+			width: 48%;
+			top: 0;
+			left: 0;
+
+			.btnPlayWrap {
+				right: -55px;
+				left: auto;
+				transform: translateY(-50%);
+				padding: 23px 19px;
+			}
+		}
+
+		.contentBlock {
+
+			.btnMin {
+				min-width: 150px;
+			}
+		}
+	}
+
+	.shYoTiBlock {
+
+		.deliverSolutionWidget {
+			margin-right: 0;
+			margin-left: auto;
+		}
+	}
+
+	.fsLarger {
+		font-size: 150px;
+		line-height: 150px;
+	}
+
+	.logo {
+		max-width: 143px;
+	}
+
+	h1, .h1 {
+		font-size: 44px;
+		line-height: 50px;
+	}
+
+	.searchPopup {
+
+		.frame {
+			padding: 0;
+		}
+
+		form {
+			width: 740px;
+		}
+	}
+
+	.bannerSec {
+
+		.btnHolder {
+
+			.btn {
+				min-width: 175px;
+			}
+		}
+
+		.hTitle {
+			font-size: 34px;
+			line-height: 34px;
+		}
+
+		&.bannerSecIII {
+			
+			.captionWrap {
+				margin-bottom: 50px;
+			}
+		}
+
+		&.bannerSecIII {
+			min-height: 100vh;
+		}
+	}
+
+	.hcStepList {
+		font-size: 17px;
+
+		li {
+			padding-left: 30px;
+			padding-right: 30px;
+
+			&:after {
+				width: 98px;
+				top: 80px;
+				right: -45px;
+				transform: none;
+			}
+		}
+
+		.hcsImgWrap {
+			width: 158px;
+			height: 158px;
+
+			&:before {
+				font-size: 35px;
+			}
+		}
+	}
+
+	.syfCol {
+		font-size: 17px;
+		margin-bottom: 0;
+
+		.descHolder {
+			margin-top: 180px;
+		}
+
+		.icnWrap {
+			top: 36px;
+		}
+
+		&:hover {
+
+			.descHolder {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.btnPlayHolder {
+
+		.btnPlay {
+			width: 50px;
+			height: 50px;
+		}
+	}
+
+	.phnHolder {
+		width: 50px;
+		height: 50px;
+	}
+
+	.afColumn {
+
+		.btnText {
+			padding: .75rem .9375rem;
+		}
+	}
+
+	.emeContactAside {
+
+		.btn {
+			padding-top: 25px;
+			padding-bottom: 25px;
+		}
+	}
+
+	.donStepList {
+		font-size: 17px;
+	}
+
+	.widgetForm {
+		font-size: 17px;
+		padding: 20px 25px 20px;
+
+		.widgetFormtHead {
+			margin-bottom: 30px;
+			padding: 15px 25px;
+		}
+
+		.wdFromLabel {
+			margin-bottom: 8px;
+		}
+	}
+
+	.customRadioTabBtnLabel {
+
+		.cuFakeLabel {
+			font-size: 16px;
+			width: 99px;
+			height: 44px;
+		}
+	}
+
+	.customRadioBtnLabel {
+
+		.cuFakeLabel {
+
+			&:before {
+				top: 6px;
+			}
+
+			&:after {
+				top: 10px;
+			}
+		}
+	}
+
+	.accOpener {
+		padding: 20px 40px 20px 15px;
+		font-size: 18px;
+
+		&:after,
+		&:before {
+			font-size: 15px;
+		}
+	}
+
+	.latNewsPost {
+
+		.lnPostTitle {
+
+			a {
+				height: 65px;
+			}
+		}
+	}
+
+	.causeGridCol {
+
+		&.casueGridSinglePost {
+
+			.cgColTitle {
+				font-size: 26px;
+			}
+		}
+	}
+
+	.gridFilterWrap {
+
+		.element-item {
+			width: 33.333%;
+
+			&.item {
+				width: 66.666%;
+			}
+		}
+	}
+
+	.bpCommentsList {
+
+		.cmntWrap {
+			padding: 30px 25px;
+		}
+
+		.bpChildCommentsList {
+
+			.cmntWrap {
+				padding-left: 110px;
+			}
+		}
+	}
+
+	.cgspTabList {
+
+		.nav-link {
+
+			margin-right: 25px;
+		}
+	}
+
+	.causeGridCol {
+
+		.cgColDetail {
+
+			p {
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	.wcFormWrap {
+
+		.widgetContactForm {
+			width: 60%;
+		}
+
+		.contANDadreesCol {
+			width: 40%;
+		}
+	}
+
+	.cuMapBlock {
+
+		.cuMapHolder {
+			min-height: 400px;
+		}
+	}
+
+	.nalWrap {
+		margin-top: -170px;
+	}
+
+	.newsArticleList {
+
+		a {
+			font-size: 20px;
+			padding: 15px 25px;
+		}
+	}
+
+	.covidLiveCounterMap {
+
+		.covlcWidget {
+			width: 325px;
+		}
+
+		.clcuList {
+			height: 335px;
+		}
+	}
+
+	.syfStyle2 {
+
+		.syfCol {
+			margin-bottom: 50px;
+			height: 300px;
+		}
+	}
+
+	.helpAsideWidget  {
+
+		.btn {
+			font-size: 20px;
+		}
+	}
+
+	.clientQuote {
+
+		q {
+			font-size: 26px;
+		}
+
+		.eWrap {
+			font-size: 22px;
+		}
+	}
+}

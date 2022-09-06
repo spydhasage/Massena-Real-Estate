@@ -1,0 +1,277 @@
+@include media-breakpoint-down(md) {
+
+	.donateNowForm {
+
+		.customInputWrap {
+
+			.input-group-text,
+			.form-control {
+				height: 38px;
+			}
+		}
+	}
+
+	.syfCol {
+		min-height: 285px;
+	}
+
+	.headerII {
+
+		.navCollapse {
+			top: 72px;
+		}
+	}
+}
+
+@include media-breakpoint-down(sm) {
+
+	.searchOpener {
+		display: none;
+	}
+
+	.menuHolder {
+
+		.navCollapse {
+			max-height: 450px;
+			overflow-y: auto;
+		}
+	}
+
+	.bannerSec {
+
+		.btnHolder {
+
+			.btn {
+				font-size: 16px;
+			}
+		}
+	}
+
+	.syfCol {
+		min-height: 265px;
+		max-width: 290px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.cgSecRow {
+
+		.col {
+
+			&:last-child {
+
+				.causeGridCol {
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+
+	.headerII {
+
+		.topBarContactList {
+
+			li {
+
+				&:last-child {
+
+					.icn {
+						margin-right: 5px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include media-breakpoint-down(xs) {
+
+	.featColumn {
+		min-height: 210px;
+		max-width: 290px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@include media-breakpoint-up(xlwwd) {
+
+	.bannerSecIII {
+		
+		.imageWrap {
+
+			.imgHolder {
+				max-width: 820px;
+			}
+		}		
+	}
+
+	h4, .h4 {
+		font-size: 24px;
+	}
+
+	.syOFcvBlock {
+
+		.imgHolder {
+			width: 623px;
+			height: 647px;
+		}
+
+		.mfIcon {
+			width: 80px;
+			height: 80px;
+		}
+
+		.featureBlock {
+
+			.fbTxtBlock {
+				width: 325px
+			}
+		}
+
+		.lfbRow {
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-right: -100px;
+					}
+
+					.fbTxtBlock {
+						right: -25px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 0px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-right: -5px;
+					}
+
+					.fbTxtBlock {
+						right: 70px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 95px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-right: -30px;
+					}
+
+					.fbTxtBlock {
+						right: 43px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 70px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.rfbRow {
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-left: -100px;
+					}
+
+					.fbTxtBlock {
+						left: -25px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 0px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-left: 9px;
+					}
+
+					.fbTxtBlock {
+						left: 84px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 109px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-left: -10px;
+					}
+
+					.fbTxtBlock {
+						left: 65px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 90px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.mainNavDropdown {
+
+		&.dropdown-menu {
+			width: 200px;
+		}
+	}
+}

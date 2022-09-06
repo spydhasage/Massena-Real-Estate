@@ -1,0 +1,225 @@
+@include media-breakpoint-up(sm) {
+
+	.syOFcvBlock {
+
+		.featureBlock {
+
+			.fbtWrap {
+				padding: 28px 25px 15px 20px;
+			}
+
+			.fbTxtBlock {
+				width: 280px;
+			}
+		}
+
+		.lfbRow {
+
+			.col {
+
+				.mfIcon {
+					margin-right: 30px;
+				}
+
+				.fbTxtBlock {
+					left: auto;
+					right: 95px;
+				}
+
+				.featureBlock {
+
+					&.hover {
+
+						.fbTxtBlock {
+							right: 118px;
+							left: auto;
+						}
+					}
+				}
+			}
+		}
+
+		.rfbRow {
+
+			.col {
+
+				.mfIcon {
+					margin-left: 30px;
+				}
+
+				.fbTxtBlock {
+					right: auto;
+					left: 100px;
+				}
+
+				.featureBlock {
+
+					&.hover {
+
+						.fbTxtBlock {
+							right: auto;
+							left: 120px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.csList {
+
+		li {
+			width: 33.3333%;
+			margin-bottom: 0;
+		}
+
+		li + li {
+
+			&:before {
+				width: 2px;
+				height: 57px;
+				left: 0;
+				top: 50%;
+				transform: translateY(-50%);
+			}
+		}
+	}
+
+	.hyfRo {
+
+		.col {
+
+			&:last-child {
+
+				.hyfCol {
+					margin-bottom: 30px;
+				}
+			}
+		}
+	}
+
+	.donationBoxHolder {
+
+		.ccLiveCounter {
+
+			li {
+				width: 31%;
+			}
+		}
+	}
+	
+	.fsLarger {
+		font-size: 90px;
+		line-height: 90px;
+	}
+
+	.logo {
+		max-width: 115px;
+	}
+
+	h1, .h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.btn {
+
+		&:before {
+			padding: .75rem .9375rem;
+		}
+	}
+
+	.btnText {
+		padding: .75rem .9375rem;
+	}
+
+	.bannerSec {
+
+		.btnHolder {
+
+			.btn {
+				min-width: 150px;
+			}
+		}
+
+		.hTitle {
+			font-size: 30px;
+			line-height: 30px;
+		}
+	}
+
+	.ccLiveCounter {
+
+		li  {
+			min-width: 30%;
+		}
+	}
+
+	.featColumn {
+		font-size: 16px;
+	}
+
+	.accOpener {
+		padding: 18px 40px 18px 20px;
+
+		&:after,
+		&:before {
+			font-size: 14px;
+			right: 20px;
+		}
+	}
+
+	.bpCommentsList {
+
+		.bpChildCommentsList {
+
+			.cmntWrap {
+				padding-left: 60px;
+			}
+		}
+
+		.cmntWrap {
+			padding: 30px 15px;
+		}
+	}
+
+	.cgdOrgDetailList {
+
+		li {
+			width: 50%;
+		}
+	}
+
+	.gridFilterWrap {
+
+		.element-item {
+			width: 50%;
+		}
+	}
+
+	.cgspTabList {
+
+		.nav-link {
+
+			margin-right: 15px;
+		}
+	}
+
+	.profilePicWrap{
+		left: 40px;
+		opacity: 0;
+		visibility: hidden;
+		transform: scale(0);
+		transform-origin: 50% 50% 0;
+		transition: opacity 0.5s ease, visibility 0.5s ease, transform 0.5s ease;
+		top: 30px;
+	}
+
+	.clientQuote q:before {
+		left: -57px;
+	}
+
+	.slick-current.slick-active .clientQuote .profilePicWrap {
+		transform: scale(1);
+	}
+}

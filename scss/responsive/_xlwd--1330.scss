@@ -1,0 +1,213 @@
+@include media-breakpoint-up(xlwd) {
+
+	.syOFcvBlock {
+
+		.mfIcon {
+			width: 72px;
+			height: 72px;
+		}
+
+		.imgHolder {
+			width: 545px;
+			height: 570px;
+		}
+
+		.featureBlock {
+			margin-bottom: 100px;
+			font-size: 16px;
+
+			.fbTxtBlock {
+				width: 290px
+			}
+		}
+
+		.lfbRow {
+
+			.fbtWrap {
+				padding: 18px 25px 15px 15px;
+			}
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-right: -100px;
+					}
+
+					.fbTxtBlock {
+						right: -33px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: -8px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-right: -65px;
+					}
+
+					.fbTxtBlock {
+						right: 2px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 27px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-right: -80px;
+					}
+
+					.fbTxtBlock {
+						right: -13px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								right: 12px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.rfbRow {
+
+			.fbtWrap {
+				padding: 18px 10px 15px 25px;
+			}
+
+			.col {
+
+				&:first-child {
+
+					.mfIcon {
+						margin-left: -100px;
+					}
+
+					.fbTxtBlock {
+						left: -33px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: -8px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(2) {
+
+					.mfIcon {
+						margin-left: -53px;
+					}
+
+					.fbTxtBlock {
+						left: 12px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 37px;
+							}
+						}
+					}
+				}
+
+				&:nth-child(3) {
+
+					.mfIcon {
+						margin-left: -50px;
+					}
+
+					.fbTxtBlock {
+						left: 17px;
+					}
+
+					.featureBlock {
+
+						&.hover {
+
+							.fbTxtBlock {
+								left: 42px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	
+	.syfCol {
+
+		&:hover {
+
+			.descHolder {
+				margin-top: 35px;
+			}
+		}
+	}
+
+	.bannerSlider {
+
+		.bannerSecIII {
+
+			.captionWrap {
+
+				.h1 {
+					font-size: 60px;
+				}
+			}
+		}
+	}
+
+	.htrtsoCovid-19 {
+
+		.imgWrap {
+
+			.imgHolder {
+				width: 420px;
+			}
+		}
+	}
+
+	.bannerSecIII {
+		
+		.imageWrap {
+
+			.imgHolder {
+				max-width: 613px;
+			}
+		}		
+	}
+}

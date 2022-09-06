@@ -1,0 +1,276 @@
+@include media-breakpoint-up(xl) {
+
+	.headerII {
+
+		.socialNetworks {
+
+			.icn {
+				font-size: 18px;
+			}
+		}
+
+		.topBarContactList {
+
+			.icn {
+				font-size: 22px;
+				margin-right: 18px;
+			}
+		}
+
+		.customSelect {
+			font-size: 15spx;
+		}
+	}
+
+	.bannerSlider {
+
+		.bannerSec.bannerSecIII {
+			min-height: calc(100vh - 138px);
+		}
+	}
+
+	.hdTopBar {
+		font-size: 15px;
+	}
+
+	.searchOpener {
+		font-size: 17px;
+		margin-right: 16px;
+		padding-right: 13px;
+		padding-left: 13px;	
+	}
+
+	.syOFcvBlock {
+
+		.imgHolder {
+			width: 475px;
+			height: 500px;
+		}
+
+		.featureBlock {
+
+			.fbTxtBlock {
+				width: 245px
+			}
+		}
+	}
+
+	.menuHolder {
+
+		.navCollapse {
+
+			.nav-item.dropdown,
+			.nav-item {
+				font-size: 17px;
+				margin-right: 16px;
+			}
+		}
+	}
+
+	.mainNavDropdown {
+
+		&.dropdown-menu {
+			width: 175px;
+
+			.dropdown-item {
+				padding-top: 15px;
+				padding-bottom: 15px;
+				font-size: 15px;
+			}
+		}
+
+		.dropdown-submenu {
+
+			&:after {
+				top: 18px;
+			}
+		}
+	}
+
+	.bannerSecIII {
+
+		.imageWrap {
+
+			.imgHolder {
+				max-width: 563px;
+			}
+		}
+	}
+
+	.htrtsoCovid-19 {
+
+		.imgWrap {
+
+			.imgHolder {
+				width: 380px;
+			}
+
+			.rwImg {
+				right: 0;
+				top: 120px;
+			}
+		}
+	}
+
+	.ourPromiseBlock {
+
+		.contentBlock {
+
+			.btnMin {
+				min-width: 174px;
+			}
+		}
+	}
+	
+	.fsLarger {
+		font-size: 200px;
+		line-height: 200px;
+	}
+
+	h1, .h1 {
+		font-size: 50px;
+		line-height: 60px;
+	}
+
+	.navCollapse {
+
+		li + li {
+			margin-left: 12px;
+		}
+	}
+
+	.bannerSec {
+
+		.hTitle {
+			font-size: 40px;
+		}
+	}
+
+	.hcStepList {
+
+		li {
+			padding-left: 47px;
+			padding-right: 47px;
+		}
+	}
+
+	.extraPadding {
+		display: block;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.syfCol {
+
+		.descHolder {
+			margin-top: 210px;
+		}
+
+		&:hover {
+
+			.descHolder {
+				margin-top: 25px;
+			}
+		}
+	}
+
+	.donationBoxHolder {
+
+		.widgetForm {
+			margin-top: -325px;
+
+			.widgetFormtHead {
+
+				.h4 {
+					font-size: 26px;
+				}
+			}
+		}
+
+		.ccLiveCounter {
+
+			li {
+				width: 31%;
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.accOpener {
+		padding: 22px 40px 22px 20px;
+
+		&:after {
+			top: 26px;
+		}
+	}
+
+	.subsFormWrap {
+
+		.form-control {
+			height: 53px;
+		}
+
+		.btnText,
+		.btn:before {
+			font-size: 18px;
+		}
+	}
+
+	.footerAside {
+
+		.abTxt {
+			padding-right: 70px;
+		}
+	}
+
+	.adrList {
+		padding-right: 70px;
+	}
+
+	.cgSecRow {
+
+		.col {
+
+			.causeGridCol {
+				margin-bottom: 70px;
+			}
+		}
+	}
+
+	.sendRequestForm {
+
+		.form-control {
+			height: 53px;
+		}
+
+		.btnText,
+		.btn:before {
+ 			font-size: 18px;
+		}
+	}
+
+	.cgspTabList {
+
+		.nav-link {
+
+			margin-right: 40px;
+		}
+	}
+
+	.causeGridCol {
+
+		.cgColDetail {
+
+			p {
+				margin-bottom: 40px;
+			}
+		}
+	}
+
+	.cuMapBlock {
+
+		.cuMapHolder{
+			min-height: 500px;
+		}
+	}
+}

@@ -1,0 +1,180 @@
+@include media-breakpoint-up(lgwd) {
+
+	.headerII {
+
+		.socialNetworks {
+
+			.icn {
+				font-size: 17px;
+			}
+		}
+
+		.customSelect {
+			font-size: 14px;
+		}
+	}
+
+	.syOFcvBlock {
+
+		.featureBlock {
+			font-size: 15px;
+
+			.fbTxtBlock {
+				width: 215px
+			}
+		}
+
+		.lfbRow {
+
+			.fbtWrap {
+				padding: 18px 14px 15px 6px;
+			}
+		}
+
+		.rfbRow {
+
+			.fbtWrap {
+				padding: 18px 5px 15px 15px;
+			}
+		}
+	}
+
+	.mainNavDropdown {
+
+		&.dropdown-menu {
+			width: 168px;
+
+			.dropdown-item {
+				padding-left: 24px;
+				padding-right: 24px;
+			}
+		}
+
+		.dropdown-submenu {
+
+			&:after {
+				right: 23px;
+			}
+
+			.dropdown-menu {
+
+				.dropdown-item {
+					padding-left: 24px !important;
+				}
+			}
+		}
+	}
+
+	.shYoTiBlock {
+
+		.deliverSolutionWidget {
+			font-size: 18px;
+		}
+	}
+
+	h2, .h2 {
+		font-size: 40px;
+		line-height: 44px;
+	}
+
+	h4, .h4 {
+		font-size: 23px;
+		line-height: 30px;
+	}
+
+	.fsSmall {
+		font-size: 17px;
+	}
+
+	.bannerSec {
+
+		&.bannerSecII {
+			min-height: 350px;
+		}
+	}
+
+	.syfCol {
+
+		&:hover {
+
+			.descHolder {
+				margin-top: 0;
+			}
+		}
+	}
+
+	.donStepList {
+
+		li {
+			margin-bottom: 35px;
+		}
+	}
+
+	.donationBoxHolder {
+
+		.widgetForm {
+			margin-top: -305px;
+		}
+
+		.ccLiveCounter {
+
+			.h2 {
+				font-size: 36px;
+			}
+		}
+	}
+
+	.causeGridCol {
+
+		&.casueGridSinglePost {
+
+			.cgColTitle {
+				font-size: 30px;
+			}
+		}
+	}
+
+	.tysdCol {
+
+		.tysdColTitle {
+			font-size: 26px;
+		}
+	}
+
+	.cgspTabList {
+		font-size: 20px;
+	}
+
+	.wcFormWrap {
+
+		.widgetContactForm {
+			width: 70%;
+		}
+
+		.contANDadreesCol {
+			width: 30%;
+		}
+	}
+
+	.cuMapBlock {
+
+		.cuMapHolder {
+			min-height: 450px;
+		}
+	}
+
+	.helpAsideWidget  {
+
+		.btn {
+			font-size: 22px;
+		}
+	}
+
+	.syfStyle2 {
+
+		.syfCol {
+			margin-bottom: 50px;
+			height: 320px;
+		}
+	}
+}
